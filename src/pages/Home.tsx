@@ -14,7 +14,7 @@ const Home: FC = () => {
   };
 
   return (
-    <main className="font-inter bg-gray-300 w-full h-[100vh]">
+    <main className="p-4 font-inter bg-gray-300 w-full h-[100vh]">
       <section className="relative h-full">
         {!openModal && (
           <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
